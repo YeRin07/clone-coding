@@ -1,0 +1,110 @@
+#News_Notice {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+#News_Notice .News_Notice_in {
+    width: 1280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#News_Notice .News_Notice_in h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#News_Notice .News_Notice_in h3 span {
+    font-weight: 300;
+}
+
+#News_Notice .News_Notice_in p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #888888;
+    margin-top: 6px;
+}
+
+#News_Notice .News_Notice_in ul {
+    display: flex;
+    margin-top: 32px;
+}
+
+#News_Notice .News_Notice_in ul li {
+    font-family: 'Noto Sans KR', sans-serif;
+    border: solid 1px #eee;
+    margin-right: 30px;
+    text-align: left;
+}
+
+#News_Notice .News_Notice_in ul .del_img {
+    margin: 0;
+}
+
+#News_Notice .News_Notice_in ul h6 {
+    font-weight: 700;
+    font-size: 19px;
+    padding: 35px 35px 0;
+}
+
+#News_Notice .News_Notice_in ul p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap: break-word; 
+    line-height: 1.2em;
+    height: 3.6em;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 180%;
+    margin: 10px 0 12px;
+    padding: 0 35px;
+}
+
+#News_Notice .News_Notice_in ul .day {
+    font-size: 14px;
+    color: #999999;
+    padding: 0 35px;
+}
+
+@media screen and (max-width: 1310px){
+    #News_Notice .News_Notice_in {
+        width: calc(100% - 30px);
+    }
+
+    #News_Notice .News_Notice_in ul {
+        display: flex;
+        align-items: center;
+    }
+
+    #News_Notice .News_Notice_in ul li {
+        font-family: 'Noto Sans KR', sans-serif;
+        border: solid 1px #eee;
+        margin-right: 20px;
+        text-align: left;
+        max-width: 406px;
+        height: auto;
+    }
+
+    #News_Notice .News_Notice_in ul li img {
+        /* max-width: 100%; */
+        width: 100%;
+        height: auto;
+    }
+    
+    #News_Notice .News_Notice_in ul .del_img {
+        margin: 0;
+    }
+}   
+@media screen and (max-width: 980px){}
+@media screen and (max-width: 680px){}
