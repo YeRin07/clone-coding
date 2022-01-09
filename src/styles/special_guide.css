@@ -1,0 +1,151 @@
+#Special_Guide {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+}
+
+#Special_Guide .Special_Guide_in {
+  width: 1280px;
+  height: auto;
+  margin: auto;
+}
+
+#Special_Guide .Special_Guide_in .Special_Guide_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Special_Guide .Special_Guide_in .Special_Guide_content .Special_Guide_tit {
+  text-align: center;
+}
+
+#Special_Guide .Special_Guide_in .Special_Guide_content .Special_Guide_tit h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #333;
+}
+
+#Special_Guide
+  .Special_Guide_in
+  .Special_Guide_content
+  .Special_Guide_tit
+  h3
+  span {
+  font-weight: 300;
+}
+
+#Special_Guide .Special_Guide_in .Special_Guide_content .Special_Guide_tit p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: #888888;
+  padding-top: 5px;
+}
+
+#Special_Guide .Special_Guide_in .Products_img1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+@media screen and (max-width: 1310px) {
+  #Special_Guide .Special_Guide_in {
+    width: calc(100% - 30px);
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 li {
+    margin-right: 20px;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 .special_del_img2 {
+    margin-right: 0;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 li img {
+    max-width: 297px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #Special_Guide {
+    margin-top: 50px;
+  }
+
+  #Special_Guide
+    .Special_Guide_in
+    .Special_Guide_content
+    .Special_Guide_tit
+    h3 {
+    font-size: 28px;
+  }
+
+  #Special_Guide .Special_Guide_in .Special_Guide_content img {
+    width: 26px;
+    height: 32px;
+  }
+
+  #Special_Guide .Special_Guide_in .Special_Guide_content .Special_Guide_tit p {
+    font-size: 17px;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 {
+    margin-top: 35px;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 .special_del_img1 {
+    margin-right: 0;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 .special_del_img2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #Special_Guide
+    .Special_Guide_in
+    .Special_Guide_content
+    .Special_Guide_tit
+    h3 {
+    font-size: 24px;
+  }
+
+  #Special_Guide .Special_Guide_in .Special_Guide_content img {
+    width: 20px;
+    height: 26px;
+  }
+
+  #Special_Guide .Special_Guide_in .Special_Guide_content .Special_Guide_tit p {
+    font-size: 15px;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 {
+    margin-top: 24px;
+  }
+  #Special_Guide .Special_Guide_in .Products_img1 .special_margin_img {
+    margin-right: 0;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 li {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 li img {
+    max-width: 310px;
+    width: 100%;
+    height: auto;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 .special_del_img1 {
+    display: none;
+  }
+
+  #Special_Guide .Special_Guide_in .Products_img1 .special_del_img2 {
+    display: none;
+  }
+}
