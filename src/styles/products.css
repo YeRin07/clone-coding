@@ -162,6 +162,11 @@
         font-size: 15px;
         margin: 20px 0 25px;
         max-width: 460px;
+        width: 100%;
+    }
+
+    #Products .Products_in .Products_content .Products_tit ul li {
+        margin: 0 12px;
     }
 
     #Products .Products_in .Products_content .Products_tit ul .click {
@@ -190,6 +195,18 @@
     #Products {
         margin-top: 50px;
     }
+
+    #Products .Products_in .Products_content .Products_tit ul {
+        font-size: 15px;
+        margin: 20px 0 25px;
+        max-width: 460px;
+        width: 100%;
+    }
+
+    #Products .Products_in .Products_content .Products_tit ul li {
+        margin: 0 8px;
+    }
+
     #Products .Products_in .Products_content .Products_tit h3 {
         font-size: 24px;
     }
