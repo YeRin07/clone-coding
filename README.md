@@ -4,9 +4,9 @@
 <br><br>
 
 ## 📖 이번 프로젝트에서 공부한 것
-- flex
-- width, max-width (반응형)
-- text-overflow
+- 미디어 쿼리를 사용하여 반응형 웹 제작
+- 반응형 웹을 위한 flex와 관련된 레이아웃 속성을 공부
+- text-overflow 사용법과 그와 관련된 속성을 공부
 <br><br>
 
 ## 🛠 제작기간&참여인원
